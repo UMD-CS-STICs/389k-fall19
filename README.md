@@ -24,7 +24,7 @@ and [Robert Choe]()
 - **Course Facilitators (Section 0201)**: [Jordan Mess]()
 and [Elijah Schwelling]()
 - **Faculty Advisor**: [John Dickerson](http://jpdickerson.com/)
-- **Syllabus Last Updated**: May 15 2018
+- **Syllabus Last Updated**: August 29 2019
 
 ## Topics Covered
 - HTML and CSS
