@@ -15,9 +15,9 @@ application.
 - **Prerequisites**: C- or better in CMSC216 and CMSC250
 - **Credits**: 1
 - **Seats**: 30
-- **Lecture Time**: Fridays, 11:00AM-11:50AM
+- **Lecture Time**: Fridays, 11:00AM-11:50AM and 12:00PM-12:50PM
 - **Location**: CSI 2120
-- **Semester**: Spring 2019
+- **Semester**: Fall 2019
 - **Textbook**: None
 - **Course Facilitators (Section 0101)**: [Camille Stacho](https://cstacho.github.io)
 and [Robert Choe]()
