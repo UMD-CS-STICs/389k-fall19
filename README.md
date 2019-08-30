@@ -82,21 +82,21 @@ afterwards.
 
 | Week | Topic | Assignment |
 | ----|----|----- |
-| 1 (2/1) | Intro + HTML/CSS | Personal Website (P1) |
-| 2 (2/8) | Javascript Language w/ DOM | P1 DUE, JS Function Implementation (P2) |
-| 3 (2/15) | jQuery and AJAX | P2 DUE, 50 State Game (P3) |
-| 4 (2/22) | Node.js | |
-| 5 (3/1) | Express.js | P3 DUE on 03/04, Pokémon API (P4) |
-| 6 (3/8) | Express.js (cont.) | |
-| 7 (3/15) | Express.js (cont.) / Handlebars.js | P4 DUE & Midterm Project |
-| 8 (3/22) | Spring break |  |
-| 9 (3/29) | Databases | |
-| 10 (4/5) | Web Sockets | |
-| 11 (4/12) | Midterm Project Presentation | Midterm Project DUE & Final Project OUT |
-| 12 (4/19) | Deployment & Advanced Git| |
-| 13 (4/26) | Javscript Libraries (Chart.js / Typed.js) | 
-| 14 (5/3) | Javascript Libraries  | 
-| 15 (5/10) | Presentations | Final Project DUE |
+| 1 (8/30) | Intro + HTML/CSS | Personal Website (P1) |
+| 2 (9/6) | Javascript Language w/ DOM | P1 DUE, JS Function Implementation (P2) |
+| 3 (9/13) | jQuery and AJAX | P2 DUE, 50 State Game (P3) |
+| 4 (9/20) | Node.js | |
+| 5 (9/27) | Express.js | P3 DUE on 03/04, Pokémon API (P4) |
+| 6 (10/4) | Express.js (cont.) | |
+| 7 (10/11) | Express.js (cont.) / Handlebars.js | P4 DUE & Midterm Project |
+| 8 (10/18) | Databases |  |
+| 9 (10/25) | Web Sockets | |
+| 10 (11/1) | Midterm Project Presentation | Midterm Project DUE & Final Project OUT |
+| 11 (11/8) | Deployment & Advanced Git| |
+| 12 (11/15) | Javscript Libraries (Chart.js / Typed.js)| |
+| 13 (11/22) | Javscript Libraries | 
+| 14 (11/29) | Thanksgiving Break  | 
+| 15 (12/6) | Presentations | Final Project DUE |
 
 ## Projects
 Projects must be submitted electronically following the instructions given in
