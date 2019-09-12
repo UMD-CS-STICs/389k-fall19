@@ -86,7 +86,7 @@ afterwards.
 | 2 (9/6) | Javascript Language w/ DOM | P1 DUE, JS Function Implementation (P2) |
 | 3 (9/13) | jQuery and AJAX | P2 DUE, 50 State Game (P3) |
 | 4 (9/20) | Node.js | |
-| 5 (9/27) | Express.js | P3 DUE on 03/04, Pokémon API (P4) |
+| 5 (9/27) | Express.js | P3 DUE, Pokémon API (P4) |
 | 6 (10/4) | Express.js (cont.) | |
 | 7 (10/11) | Express.js (cont.) / Handlebars.js | P4 DUE & Midterm Project |
 | 8 (10/18) | Databases |  |
