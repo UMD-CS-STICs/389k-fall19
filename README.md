@@ -86,15 +86,15 @@ afterwards.
 | 2 (9/6) | Javascript Language w/ DOM | P1 DUE, JS Function Implementation (P2) |
 | 3 (9/13) | jQuery and AJAX | P2 DUE, 50 State Game (P3) |
 | 4 (9/20) | Node.js | |
-| 5 (9/27) | Express.js | P3 DUE, Pokémon API (P4) |
-| 6 (10/4) | Express.js (cont.) | |
-| 7 (10/11) | Express.js (cont.) / Handlebars.js | P4 DUE & Midterm Project |
-| 8 (10/18) | Databases |  |
-| 9 (10/25) | Web Sockets | |
+| 5 (9/27) | NO CLASS - THX SPORTS | P3 DUE, Pokémon API (P4) |
+| 6 (10/4) | Express.js | |
+| 7 (10/11) | Express.js (cont.) | P4 DUE & Midterm Project |
+| 8 (10/18) | Express.js (cont.) / Handlebars.js |  |
+| 9 (10/25) | Databases | |
 | 10 (11/1) | Midterm Project Presentation | Midterm Project DUE & Final Project OUT |
-| 11 (11/8) | Deployment & Advanced Git| |
-| 12 (11/15) | Javscript Libraries (Chart.js / Typed.js)| |
-| 13 (11/22) | Javscript Libraries | 
+| 11 (11/8) | Web Sockets| |
+| 12 (11/15) | Deployment & Advanced Git| |
+| 13 (11/22) | Javscript Libraries (Chart.js / Typed.js) | 
 | 14 (11/29) | Thanksgiving Break  | 
 | 15 (12/6) | Presentations | Final Project DUE |
 
