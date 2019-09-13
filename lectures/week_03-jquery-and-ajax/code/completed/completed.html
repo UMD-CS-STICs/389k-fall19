@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://www.biography.com/.image/ar_8:10%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_620/MTU3NTY2MjUwMTM2OTA1NjEx/chuck-close-attends-the-first-taping-of-the-late-show-with-stephen-colbert-on-september-8-2015-in-new-york-city-photo-by-michael-loccisanogetty-images-square.jpg" width="150px">
+        <h1 id="main_header">Chuck Norris</h1>
+        <ul>
+            <li>
+                <a href="http://google.com">Home</a></li>
+            <li>
+                <a href="http://facebook.com">About</a>
+            </li>
+            <li>
+                <a href="#">Other</a>
+            </li>
+        </ul>
+    </header>
+    <article>
+        <h3>Search Category:</h3>
+        <input id="category_field" type="text" placeholder="Ex: Animal">
+        <button id="search_button">Search! </button>
+        <button id="clear_button"> Clear Results </button>
+        <div id="article_container"></div>
+    </article>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script>
+        // $("#main_header").text("old man");
+
+        // $("#search_button").on("click", function(){
+        //     var inputValue = $("#category_field").val();
+        //     alert(inputValue);
+        // })
+
+        // $("#search_button").on("click", function(){
+        //     $("#article_container").append("<article><h2>Some content</h2><p>More content</p></article>");
+        // })
+
+        $("#search_button").on("click", function(){
+            var categoryValue = $("#category_field").val();
+            $.get("https://api.chucknorris.io/jokes/random?category=" + categoryValue, function(data){
+                $("#article_container").append("<article><h2>" + data.value + "</h2></article>")
+            })
+        })
+
+        $("#clear_button").on("click", function(){
+            $("#article_container").empty();
+        })
+
+        // NOTE - If you are getting an error about something with access & CORS, download 
+        // this extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+        // and then click the extension, hit the trash icon on the very bottom to delete that specific blocker
+        // and try again!
+
+        // WS - TACO SOLUTION
+        // $("#search_button").on("click", function(){
+        //     var categoryValue = $("#category_field").val();
+        //     $.get("http://taco-randomizer.herokuapp.com/random/?full-taco=true" , function(data){
+        //         $("#article_container").append("<article><h2>" + data.base_layer.recipe + "</h2></article>")
+        //     })
+        // })
+    </script>
+</body>
+
+</html>
