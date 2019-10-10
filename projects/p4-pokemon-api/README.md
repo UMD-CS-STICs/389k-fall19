@@ -55,7 +55,7 @@ You will need to implement the following routes. All API routes are under `/api`
 
   ----
 
-  Example Request: `GET` `/api/id/24`
+  Example Request: `GET` `/api/id/23`
 
   Response:
   ```js
