@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function(req, res) {
-    res.send('<a src="https://docs.google.com/forms/d/1rjzMwWHTeQvAm5NdpHsywAPGW_VCcfju0M-D3I6qGT0/edit">Click Me!</a>');
+    res.send('<a src="https://docs.google.com/forms/d/e/1FAIpQLSeVLeEgIPyCUoYP_6PQTy0oeF9rJXZmYo7FKvRI4fyZX-0RXg/viewform?usp=sf_link">Click Me!</a>');
 });
 
 app.get('/factorial', function(req, res) {
