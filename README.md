@@ -135,7 +135,7 @@ TAs:
 
 [Elijah Schwelling] - eschwe333@gmail.com
 
-[Jordan Mess] - jmess@gmail.com
+[Jordan Mess] - jordanrmess@gmail.com
 
 
 ## Excused Absence and Academic Accommodations
