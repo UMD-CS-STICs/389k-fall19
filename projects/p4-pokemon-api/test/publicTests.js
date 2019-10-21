@@ -25,7 +25,8 @@ describe('evochain', function() {
     });
     it('(4 pts.) sandslash - 2 pokemon', function(done) {
         request(`${URL}/api/evochain/Sandslash`, function(err, res, body) {
-            if (err) done(err);
+            if (err) done(err);	
+						console.log(body)
             assert.deepEqual(JSON.parse(body), ['Sandshrew', 'Sandslash']);
             done();
         });
