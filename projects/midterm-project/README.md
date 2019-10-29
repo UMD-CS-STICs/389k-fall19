@@ -179,10 +179,11 @@ There is a provided a shell that has all the dependencies you need set up. We ha
     ```
 
 ### Submission
+There are two options for submitting this project:
 
-We will be Heroku [Heroku](http://heroku.com) to submit one link per project.
+1. Deploying via Heroku [Heroku](http://heroku.com) to submit one link per project. (read `deployment.md` for tutorial)
+	* At the top of your project, include the **Heroku link** (ex: https://myapp.herokuapp.com) at the top of your `documentation.md` file, like so:
+	* Submit just the `documentation.md` file to the submit server.
 
-At the top of your project, include the **Heroku link** (ex: https://myapp.herokuapp.com) at the top of your `documentation.md` file, like so:
-
-Submit just the `documentation.md` file to the submit server.
-
+2. Submit a .zip file of your entire project directory.
+	* Please delete your `node_modules` directory in your project folder before submitting.      
