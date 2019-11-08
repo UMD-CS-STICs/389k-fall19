@@ -43,7 +43,7 @@ app.get('/movies', function(req, res) {
 /*  ===================TASK 2====================
     Task 2 (SERVER SIDE): Handle a new movie post
     Steps to complete task 2:
-        1. Handle POST request
+        1. Handle POSTs request
         2. Create new movie
         3. Save new movie to database
         4. Emit new movie message to all clients currently connected

@@ -62,7 +62,7 @@
 
         //Task 2 - Step 2: Listen for message from server when some client creates a new movie
         socket.on('new movie', function(mov) {
-            
+            $('#movList').append($('<li>').text(mov.title + ': ' + mov.genre));
         })
 
 	</script>
