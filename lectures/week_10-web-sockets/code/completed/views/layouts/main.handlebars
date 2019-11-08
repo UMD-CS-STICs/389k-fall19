@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+</head>
+<body>
+    {{{body}}}
+    <script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+        /*
+            Allow client to use socket.io 
+                1. Include socket.io javascript library
+                2. Have client open it's end of the web socket -> var socket = io()
+
+            Now client can listen to messages from server 
+                -> socket.on(message, function(msg)){...}
+                
+            And emit message to server via web sockets
+                -> socket.emit(message, contentOfMessage){...}
+        */
+        //============OPEN UP SOCKET CONNECTION HERE=============
+        var socket = io(); 
+        //=======================================================
+
+        /*
+            TASK 1 (CLIENT END): Handle new chat message from client 
+            Steps to complete task from client end:
+                1. Send/emit a message to server when a new chat message is submitted
+                2. Listen for message from server when some client created a new chat message
+                    - The HTML page should update to show the new message that was sent
+        */
+
+        //Task 1 - Step 1: Send/emit a message to server when a new chat message is submitted
+        $('#box').submit(function(){ //When send button is pressed
+            socket.emit('chat message', $('#m').val())
+            $('#m').val('');
+            return false; //Ensures the page does not reload
+        });
+        //Task 1 - Step 2: Listen for message from server when some client created a new chat message and update HTML page
+        socket.on('chat message', function(msg) {
+            $('#messages').append($('<li>').text(msg));
+        });
+
+        /*
+            TASK 2 (CLIENT END): Handle a new movie submission
+            Steps to complete task 2 from client end:
+                1. Send a POST request when client has completed and submitted new movie form
+                2. Listen for message from server when some client creates a new movie
+                    - The page should update to show the new movie that was created
+        */
+
+        //Task 2 - Step 1: Send a POST request when client has completed and submitted new movie form
+        $('#movies').submit(function() { //When "post" button is pressed
+            var genre = $('#genre').val();
+            var title = $('#title').val()
+            $('#genre').val('');
+            $('#title').val('');
+            $.ajax({
+                type: "POST",
+                url: '/movies',
+                data: {
+                    title: title,
+                    genre: genre
+                },
+                sucess: function(data, status) {
+                    console.log(data);
+                }
+            });
+            return false; //Ensures the page does not reload
+        });
+
+        //Task 2 - Step 2: Listen for message from server when some client creates a new movie
+        socket.on('new movie', function(mov) {
+            $('#movList').append($('<li>').text(mov.title + ': ' + mov.genre));
+        })
+
+	</script>
+</body>
+</html>
+
